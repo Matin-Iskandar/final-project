@@ -1,0 +1,109 @@
+  .success-container {
+    .text-center {
+      padding-bottom: 90px;
+      img {
+        padding: 120px 0 23px;
+      }
+      .mt-4 {
+        color: var(--Black-01, #0b0f0e);
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%; /* 25.2px */
+        letter-spacing: -0.2px;
+      }
+      .mt-6 {
+        color: var(--Grey-01, #818b9c);
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 19.2px */
+      }
+      .mt-10 {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        a.rounded-md {
+          border-radius: 8px;
+          background: var(--Dark-Green-01, #1e4c2f);
+          display: flex;
+          width: 327px;
+          height: 48px;
+          padding: 12px 10px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          margin-bottom: 20px;
+        }
+        a.check-detail {
+          display: flex;
+          width: 327px;
+          height: 48px;
+          padding: 12px 10px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          border-radius: 8px;
+          background: var(--dGrey-01, #e4e9ee);
+        }
+      }
+    }
+  }
+
+@media (min-width: 1200px) {
+  .success-container {
+    height: 60vh;
+    .text-center {
+      img {
+        padding: 120px 0 23px;
+      }
+      .mt-4 {
+        color: var(--Black-01, #0b0f0e);
+        text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%; /* 44.8px */
+        letter-spacing: -0.2px;
+      }
+      .mt-6 {
+        color: var(--Grey-01, #818b9c);
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 25.6px */
+      }
+      .mt-10 {
+        margin-top: 50px;
+        a.rounded-md {
+          border-radius: 8px;
+          width: 160px;
+          height: 46px;
+          padding: 14px 10px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          margin: 10px;
+          background: var(--Dark-Green-01, #1e4c2f);
+        }
+        a.check-detail {
+          border-radius: 8px;
+          width: 160px;
+          height: 46px;
+          padding: 14px 10px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          margin: 10px;
+
+          border-radius: 8px;
+          background: var(--dGrey-01, #e4e9ee);
+        }
+      }
+    }
+  }
+}

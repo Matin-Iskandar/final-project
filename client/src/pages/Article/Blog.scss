@@ -1,0 +1,342 @@
+.blog-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #f7f7f7 10%, #fff 10% 90%);
+
+  .heading {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+
+    h2 {
+      color: var(--Black-01, #0b0f0e);
+
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 140%;
+      letter-spacing: -0.2px;
+    }
+    h6 {
+      color: var(--Grey-01, #818b9c);
+      text-align: center;
+
+      font-family: "Clash Grotesk";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%; /* 25.6px */
+    }
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .lenny-blog {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid var(--dGrey-01, #e4e9ee);
+    background: var(--White-General, #fff);
+    padding: 15px;
+    color: var(--Black-01, #0b0f0e);
+    text-align: center;
+    margin: 20px;
+
+    img {
+      width: 92%;
+      height: 100%;
+    }
+    h4 {
+      color: var(--Black-01, #0b0f0e);
+
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 140%; /* 22.4px */
+      letter-spacing: -0.2px;
+      padding: 15px;
+    }
+    p {
+      color: var(--Grey-01, #818b9c);
+      padding: 15px;
+      padding-top: 0;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%; /* 22.4px */
+    }
+    .readmore-btn {
+      color: var(--Dark-Green-03, #1d9e34);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 160%; /* 22.4px */
+      background: var(--White-General, #fff);
+      &active {
+        background-color: red;
+      }
+    }
+    span {
+      margin-right: 195px;
+      display: flex;
+      align-items: center;
+      color: var(--Black-01, #0b0f0e);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 140%; /* 22.4px */
+      letter-spacing: -0.2px;
+      img {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+  .blog-card {
+    .card {
+      padding-top: 30px;
+      padding: 20px;
+      border: none;
+      .card-item {
+        display: flex;
+        flex-direction: column;
+      }
+      h6 {
+        span.lennyspan {
+          color: var(--Dark-Green-03, #00a01d);
+          background-color: #ecfcdc;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 160%; /* 19.2px */
+          padding: 9px;
+        }
+        span {
+          padding-left: 20px;
+          color: var(--Grey-01, #818b9c);
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 160%; /* 19.2px */
+        }
+      }
+      img.photo {
+        padding: 20px 0;
+        width: 100%;
+        height: 100%;
+      }
+      h4 {
+        color: var(--Black-01, #0b0f0e);
+        text-overflow: ellipsis;
+        flex-wrap: wrap;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%; /* 22.4px */
+        letter-spacing: -0.2px;
+      }
+      span {
+        color: var(--Black-01, #0b0f0e);
+
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%; /* 22.4px */
+      }
+    }
+    .load-more-blog-btn {
+      padding: 20px;
+      width: 50%;
+      margin-left: 90px;
+      border-radius: 8px;
+      color: #1e4c2f;
+      color: var(--Dark-Green-01, #1e4c2f);
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 140%; /* 19.6px */
+      background: var(--White-General, #fff);
+      border: 1px solid var(--Dark-Green-01, #1e4c2f);
+      margin-top: 40px;
+      margin-bottom: 80px;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .blog-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #f7f7f7 22%, #fff 10% 90%);
+
+    .heading {
+      height: 35vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h2 {
+        color: var(--Black-01, #0b0f0e);
+
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        letter-spacing: -0.2px;
+      }
+      h6 {
+        color: var(--Grey-01, #818b9c);
+        text-align: center;
+        font-family: "Clash Grotesk";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 25.6px */
+      }
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+    }
+    .lenny-blog {
+      display: flex;
+      width: 1320px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      border: 1px solid var(--dGrey-01, #e4e9ee);
+      background: var(--White-General, #fff);
+      color: var(--Black-01, #0b0f0e);
+      text-align: center;
+      margin-left:50px;
+      .infolenny {
+        padding: 30px;
+        text-align: left;
+        span{
+margin-left: 15px;
+        }
+      }
+
+      h4 {
+        color: var(--Black-01, #0b0f0e);
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%; /* 22.4px */
+        letter-spacing: -0.2px;
+        padding: 15px;
+      }
+      p {
+        color: var(--Grey-01, #818b9c);
+        padding: 15px;
+        padding-top: 0;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 22.4px */
+        .readmore-btn {
+          color: var(--Dark-Green-03, #1d9e34);
+
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 160%; /* 22.4px */
+          background: var(--White-General, #fff);
+        }
+      }
+      // span {
+      //   display: flex;
+      //   align-items: center;
+      //   color: var(--Black-01, #0b0f0e);
+      //   font-size: 16px;
+      //   font-style: normal;
+      //   font-weight: 600;
+      //   line-height: 140%; /* 22.4px */
+      //   letter-spacing: -0.2px;
+      //   img {
+      //     width: 16px;
+      //     height: 16px;
+      //   }
+      // }
+    }
+    .blog-card {
+      width: 1440px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .load-more-blog-btn {
+        padding: 20px;
+        width: 20%;
+        border-radius: 8px;
+        color: #1e4c2f;
+        color: var(--Dark-Green-01, #1e4c2f);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 140%; /* 19.6px */
+        background: var(--White-General, #fff);
+        border: 1px solid var(--Dark-Green-01, #1e4c2f);
+        margin-top: 40px;
+        margin-bottom: 80px;
+      }
+      .card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        h6 {
+          span.lennyspan {
+            color: var(--Dark-Green-03, #00a01d);
+            background-color: #ecfcdc;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 160%; /* 19.2px */
+            padding: 9px;
+          }
+          span {
+            padding-left: 20px;
+            color: var(--Grey-01, #818b9c);
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 19.2px */
+          }
+        }
+        img.photo {
+          width: 390px;
+          height: 300px;
+        }
+        h4 {
+          color: var(--Black-01, #0b0f0e);
+          text-overflow: ellipsis;
+          flex-wrap: wrap;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 140%; /* 22.4px */
+          letter-spacing: -0.2px;
+        }
+        span {
+          color: var(--Black-01, #0b0f0e);
+
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 160%; /* 22.4px */
+        }
+      }
+    }
+  }
+}

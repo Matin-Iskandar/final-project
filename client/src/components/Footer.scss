@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer {
+  background: var(--dGrey-03, #f7f7f7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.second-part {
+  margin-left: -35px;
+  .about {
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      margin-left: 34px;
+      font-weight: bold;
+    }
+    li {
+      padding: 5px;
+    }
+    .about-lenny {
+      margin-right: 20px;
+    }
+  }
+  .account {
+    display: grid;
+    grid-template-columns: 45% 55%;
+
+    h2 {
+      margin-left: 36px;
+      font-weight: bold;
+    }
+    li {
+      padding: 5px;
+      color: var(--Black-01, #0b0f0e);
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%; /* 22.4px */
+    }
+  }
+  .contact {
+    margin-left: 12px;
+  }
+}
+.copyright {
+  margin: 0 auto;
+  background: var(--lGrey-01, #f1f1f1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  font-size: 13px;
+  h6 {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  div {
+    span {
+      padding: 10px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer {
+    width: 1440px;
+    background: var(--dGrey-03, #f7f7f7);
+    display: grid;
+    grid-template-columns: 30% 70%;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 56px;
+    li {
+      color: var(--Black-01, #0b0f0e);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%; /* 25.6px */
+    }
+  }
+  .first-part {
+    img {
+      padding-bottom: 30px;
+    }
+
+    padding-right: 40px;
+  }
+
+  .second-part {
+    display: flex;
+    margin-left: 0;
+
+    .about {
+      display: flex;
+      justify-content: space-between;
+      .about-first {
+        padding-right: 60px;
+      }
+      h2 {
+        margin-left: 18px;
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      li {
+        margin-left: -15px;
+        text-align: left;
+        padding: 5px;
+      }
+    }
+    .account {
+      display: grid;
+      grid-template-columns: 45% 55%;
+
+      h2 {
+        margin-left: 26px;
+        font-weight: bold;
+        font-size: 18px;
+      }
+      li {
+        padding: 5px;
+        margin-left: -10px;
+      }
+    }
+  }
+  .copyright {
+    width: 1440px;
+    margin: 0 auto;
+    background: var(--lGrey-01, #f1f1f1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px 300px;
+    font-size: 13px;
+    h6 {
+      font-weight: bold;
+      font-size: 12px;
+    }
+    div {
+      span {
+        padding: 10px;
+      }
+    }
+  }
+}
